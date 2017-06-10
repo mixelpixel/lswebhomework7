@@ -198,7 +198,7 @@ function largestNumber(numbers) {
   }
   // version 2 - doesn't work with npm test
   // var big = Math.max(...numbers);
-  // return big;
+  return big;
 }
 
 function makeCat(name, age) {
