@@ -153,9 +153,9 @@ function contains(arr, item) {
   for (var i = 0; i < arr.length; i++) {
     if (item === arr[i]) {
       // version 1
-      // return true;
+      return true;
       // version 2
-      return item === arr[i];
+      // return item === arr[i];
     }
   } return false;
 }
