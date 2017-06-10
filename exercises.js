@@ -190,12 +190,14 @@ function averageTestScore(testScores) {
 function largestNumber(numbers) {
   //numbers is an array of integers
   //return the largest integer
-  var big = 0;
-
-  for (var i = 0; i < numbers.length; i++) {
-    if (numbers[i] > big) {big = numbers[i];
-    }
-  }
+  // version 1
+  // var big = 0;
+  // for (var i = 0; i < numbers.length; i++) {
+  //   if (numbers[i] > big) {big = numbers[i];
+  //   }
+  // }
+  // version 2
+  big = Math.max(...numbers)
   return big;
 }
 
