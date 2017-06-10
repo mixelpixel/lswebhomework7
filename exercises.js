@@ -163,6 +163,11 @@ function contains(arr, item) {
 function addNumbers(numbers) {
   //numbers is an array of integers.
   //add all of the integers and return the value
+  var sum = 0
+  for (var i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum;
 }
 
 function averageTestScore(testScores) {
