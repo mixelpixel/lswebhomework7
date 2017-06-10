@@ -197,7 +197,7 @@ function largestNumber(numbers) {
   //   }
   // }
   // version 2
-  big = Math.max(...numbers);
+  var big = Math.max(...numbers);
   return big;
 }
 
