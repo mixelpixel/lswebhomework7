@@ -173,12 +173,18 @@ function addNumbers(numbers) {
 function averageTestScore(testScores) {
   //testScores is an array.  Iterate over testScores and compute the average.
   //return the average
-  var sum = 0;
-  var numTests = testScores.length;
-  for (var i = 0; i < testScores.length; i++) {
-    sum += testScores[i];
-  }
-  return sum / numTests;
+  // version 1
+  // var sum = 0;
+  // var numOfTests = testScores.length;
+  // for (var i = 0; i < testScores.length; i++) {
+  //   sum += testScores[i];
+  // }
+  // var average = sum / numOfTests;
+  // version 2
+  var sum = testScroes.reduce(function(a, b) { return a + b; }, 0);
+  var numOfTests = testScores.length;
+  var average = sum / numOfTests;
+  return average;
 }
 
 function largestNumber(numbers) {
