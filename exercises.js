@@ -235,6 +235,7 @@ function invokeMethod(object, method) {
 function multiplyMysteryNumberByFive(mysteryNumberObject) {
   //mysteryNumberObject has a property called mysteryNumber
   //multiply the mysteryNumber property by 5 and return the product
+  return mysteryNumberObject.mysteryNumber * 5;
 }
 
 function deleteProperty(object, property) {
