@@ -212,7 +212,7 @@ function makeCat(name, age) {
     meow: function() {
       return 'Meow!';
     }
-  }
+  };
 
   return cat;
 }
