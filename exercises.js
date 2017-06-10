@@ -125,13 +125,13 @@ function addItemToFront(arr, item) {
   //return the array
   //hint: use the array method .unshift
   // version 1
-  // arr.unshift(item);
+  arr.unshift(item);
   // version 2 - valid in node, but fails npm test
   // arr = [item, ...arr];
   // version 3 - I can't get consistent results per: https://www.w3schools.com/jsref/jsref_splice.asp
   // arr = arr.splice[0, arr.length, item];
   // version 4
-  arr = [item].concat(arr);
+  // arr = [item].concat(arr);
   return arr;
 }
 
