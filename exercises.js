@@ -126,8 +126,10 @@ function addItemToFront(arr, item) {
   //hint: use the array method .unshift
   // version 1
   // arr.unshift(item);
-  // version 2
-  arr = [item, ...arr];
+  // version 2 - valid in node, but fails npm test
+  // arr = [item, ...arr];
+  // version 3
+  arr.splice[0, arr.length, item]
   return arr;
 }
 
