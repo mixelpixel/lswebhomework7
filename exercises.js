@@ -248,6 +248,12 @@ function deleteProperty(object, property) {
 function newUser(name, email, password) {
   //create a new object with properties matching the arguments passed in.
   //return the new object
+  var newObject = {
+    name: name,
+    email: email,
+    password: password
+  };
+  return newObject;
 }
 
 function hasEmail(user) {
