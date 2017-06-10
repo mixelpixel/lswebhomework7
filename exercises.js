@@ -302,6 +302,9 @@ function setUsersToPremium(users) {
   //each user object has the property 'isPremium'
   //set each user's isPremium property to true
   //return the users array
+  for (var i = 0; i < users.length; i++) {
+    users[i].isPremium = true;}
+  return users;
 }
 
 function sumUserPostLikes(user) {
