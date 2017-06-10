@@ -259,6 +259,9 @@ function newUser(name, email, password) {
 function hasEmail(user) {
   //return true if the user has a value for the property 'email'
   //otherwise return false
+  if (user.email === true) {
+    return true;
+  } else { return false; }
 }
 
 function hasProperty(object, property) {
