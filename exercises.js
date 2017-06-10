@@ -114,7 +114,9 @@ function addItemToArray(arr, item) {
   //add the item to the end of the array
   //return the array
   // version 1
-  arr[arr.length] = item;
+  // arr[arr.length] = item;
+  // version 2
+  arr.push(item);
   return arr;
 }
 
