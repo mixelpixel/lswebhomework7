@@ -207,13 +207,13 @@ function makeCat(name, age) {
   //add a method called meow that returns the string 'Meow!'
   //return the object
   var cat = {
-    name  = name,
-    age   = age,
-    meow  = function() {
+    name: name,
+    age:  age,
+    meow: function() {
       return 'Meow!';
     }
   }
-  
+
   return cat;
 }
 
