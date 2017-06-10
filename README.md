@@ -5,9 +5,9 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 
 	* Array
-		- A collection of data types, arrange by ordinal index numbers
+		- A collection of data types, arranged by ordinal index numbers starting at 0.
 	* Object
-		- A data type constructed of Key: Value pairs
+		- A data type constructed of Key: Value pairs.
 	* Method
 		- A function within an object.
 
