@@ -113,7 +113,8 @@ function incrementByOne(arr) {
 function addItemToArray(arr, item) {
   //add the item to the end of the array
   //return the array
-  return arr.push(item);
+  // version 1
+  return arr[arr.length] = item;
 }
 
 function addItemToFront(arr, item) {
