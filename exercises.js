@@ -131,7 +131,7 @@ function addItemToFront(arr, item) {
   // version 3 - I can't get consistent results per: https://www.w3schools.com/jsref/jsref_splice.asp
   // arr = arr.splice[0, arr.length, item];
   // version 4
-  [item].concat(arr);
+  arr = [item].concat(arr);
   return arr;
 }
 
