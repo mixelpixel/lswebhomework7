@@ -191,14 +191,14 @@ function largestNumber(numbers) {
   //numbers is an array of integers
   //return the largest integer
   // version 1
-  // var big = 0;
-  // for (var i = 0; i < numbers.length; i++) {
-  //   if (numbers[i] > big) {big = numbers[i];
-  //   }
-  // }
-  // version 2
-  var big = Math.max(...numbers);
-  return big;
+  var big = 0;
+  for (var i = 0; i < numbers.length; i++) {
+    if (numbers[i] > big) {big = numbers[i];
+    }
+  }
+  // version 2 - doesn't work with npm test
+  // var big = Math.max(...numbers);
+  // return big;
 }
 
 function makeCat(name, age) {
