@@ -181,7 +181,7 @@ function averageTestScore(testScores) {
   // }
   // var average = sum / numOfTests;
   // version 2
-  var sum = testScroes.reduce(function(a, b) { return a + b; }, 0);
+  var sum = testScores.reduce(function(a, b) { return a + b; }, 0);
   var numOfTests = testScores.length;
   var average = sum / numOfTests;
   return average;
