@@ -129,7 +129,7 @@ function addItemToFront(arr, item) {
   // version 2 - valid in node, but fails npm test
   // arr = [item, ...arr];
   // version 3
-  arr.splice[0, arr.length, item]
+  arr.splice[0, arr.length, item];
   return arr;
 }
 
