@@ -259,7 +259,7 @@ function newUser(name, email, password) {
 function hasEmail(user) {
   //return true if the user has a value for the property 'email'
   //otherwise return false
-  if (user.email === true) {
+  if (user['email']) {
     return true;
   } else { return false; }
 }
