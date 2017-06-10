@@ -152,7 +152,10 @@ function contains(arr, item) {
   //return true if it is, otherwise return false
   for (var i = 0; i < arr.length; i++) {
     if (item === arr[i]) {
-      return true;
+      // version 1
+      // return true;
+      // version 2
+      return item === arr[i];
     }
   } return false;
 }
