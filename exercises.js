@@ -177,7 +177,8 @@ function averageTestScore(testScores) {
   for (var i = 0; i < testScores; i++) {
     sum += testScores[i];
   }
-  return sum / testScores.length;
+  var average = sum / testScores.length;
+  return average
 }
 
 function largestNumber(numbers) {
