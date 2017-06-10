@@ -128,8 +128,10 @@ function addItemToFront(arr, item) {
   // arr.unshift(item);
   // version 2 - valid in node, but fails npm test
   // arr = [item, ...arr];
-  // version 3
-  arr.splice[0, arr.length, item];
+  // version 3 - I can't get consistent results per: https://www.w3schools.com/jsref/jsref_splice.asp
+  // arr = arr.splice[0, arr.length, item];
+  // version 4
+  [item].concat(arr);
   return arr;
 }
 
