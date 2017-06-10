@@ -174,7 +174,7 @@ function averageTestScore(testScores) {
   //testScores is an array.  Iterate over testScores and compute the average.
   //return the average
   var sum = 0;
-  for var i = 0; i < testScores; i++) {
+  for (var i = 0; i < testScores; i++) {
     sum += testScores[i];
   }
   return sum / testScores.length;
