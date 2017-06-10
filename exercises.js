@@ -124,7 +124,10 @@ function addItemToFront(arr, item) {
   //add the item to the front of the array
   //return the array
   //hint: use the array method .unshift
-  arr.unshift(item);
+  // version 1
+  // arr.unshift(item);
+  // version 2
+  arr = [item, ...arr];
   return arr;
 }
 
