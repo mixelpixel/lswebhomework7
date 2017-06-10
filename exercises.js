@@ -268,6 +268,9 @@ function hasProperty(object, property) {
   //return true if the object has the value of the property argument
   //property is a string
   //otherwise return false
+  if (user[property]) {
+    return true;
+  } else { return false; }
 }
 
 function verifyPassword(user, password) {
